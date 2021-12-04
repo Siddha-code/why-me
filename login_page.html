@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Math Quiz-1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="game.css">
+<script src="game_login.js"></script>
+</head>
+<body>
+<center>
+	<h1>WELCOME TO THE MATH QUIZ GAME!!</h1>
+	<img src="http://www.mtsac.edu/lac/images/templogo_math.png" style="width: 60px;">
+	<br>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+		<h3>Player 1 Login</h3>
+		<label id="username">User Name:</label>
+		<img src="http://pluspng.com/img-png/png-user-icon-circled-user-icon-2240.png" style="width: 30px;">
+		<input type="text" id="player1_name" class="form-control" placeholder="Player 1 Name">
+	</div>
+	<br>
+	<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+		<h3>Player 2 Login</h3>
+		<label id="username">User Name:</label>
+		<img src="http://pluspng.com/img-png/png-user-icon-circled-user-icon-2240.png" style="width: 30px;">
+		<input type="text" id="player2_name" class="form-control" placeholder="Player 2 Name">
+	</div>
+	<br>
+	<button style="width: 20%; background-color: aquamarine; color: black; font-weight: bold; border-radius: 5px;" class="btn btn-link" onclick="adduser()">Log In</button>
+</center>
+</body>
+</html>
